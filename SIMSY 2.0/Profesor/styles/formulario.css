@@ -1,0 +1,207 @@
+main{
+	padding: 3.5rem 0;
+
+	background-color: #02085d ;
+}
+
+h1{
+	font-size: 2rem;
+	font-weight: bold;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+h2{
+	font-size: 1rem;
+	font-weight:bold;
+
+	text-align: center;
+	text-transform:capitalize;
+
+	color: #ffffff;
+
+}
+.submit{
+position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 7rem;
+}
+
+form{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	width: 100%;
+	max-width: 800px;
+	margin-top: 2.8rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.field{
+	display: flex;
+	flex-direction: column;
+
+	width: 14rem;
+	margin: 0.5rem 0;
+}
+
+.field label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #ffffff;
+}
+
+.field input{
+	text-align: center;
+	font-size: 1.1rem;
+
+	height: 2.2rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #4b4b4b;
+	border-radius: 5px;
+}
+
+.field select{
+	
+	font-size: 1.1rem;
+
+	width: 12rem;
+	height: 2.6rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #b6b3b3;
+	border-radius: 5px;
+}
+
+.textBox{
+	
+	display: flex;
+	flex-direction:column;
+
+	width: 32rem;
+	margin: 0.50rem 0;
+}
+
+textarea{
+	font-size: 1.1rem;
+
+	max-width: 100%;
+	height: 5rem;
+	max-height: 15rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+}
+
+.textBox label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #ffffff;
+}
+
+.gustos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	
+	margin: 0.75rem 0;
+}
+
+.gustos label{
+	font-size: 0.9rem;
+
+	margin-bottom: 0.2rem;
+
+	color: #ffffff;
+}
+
+.gustos div{
+	display: flex;
+	justify-content: flex-start;
+
+	width: 100%;
+	padding-left: 0.5rem;
+}
+
+.gustos div input{
+	width: 1rem;
+	height: 1rem;
+}
+
+.submit{
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	margin-top: 1.75rem;
+}
+
+.submit button{
+	font-size: 1.1rem;
+
+	padding: 1rem 1.5rem;
+
+	cursor: pointer;
+
+	border: 2px solid #000000;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+

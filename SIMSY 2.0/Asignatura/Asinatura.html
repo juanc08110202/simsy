@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Esta descripción es la que aparece en los buscadores debajo de la URL" />
+	<link href="./styles/practica7.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/formulario.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/resets.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap" rel="stylesheet">
+	<title>Registro</title>
+</head>
+
+<body>
+	<header>
+		<a href="" class='logo'>
+			<img src="../img/logo.jpg" />
+		</a>
+		<nav>
+			<a class="ultimos" href="../index.html">Inicio</a>
+			
+		</nav>
+		<div class="options">
+			<img src="./img/Search.png" />
+			<a href="#" class='Usuario'>
+				<img src="../Asignatura/img/User.png" />
+			</a>
+			
+		</div>
+
+	</header>
+	<main>
+		<h1>Asignaturas de la institucion </h1>
+		<h2>Año lectivo 2023</h2> 
+		<form>
+			<div class='field'>
+				<label>Asignatura</label>
+				<select name='Asignatura'  type='Asignatura' required value="">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value2" >Español</option>
+    				<option value="value3">Ciencias</option>
+    				<option value="value3">Sociales</option>
+    				<option value="value3">Matematicas</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Grado</label>
+				<select name='Grado'  type='Grado' required value="">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value2" >Primero</option>
+    				<option value="value3">Sugundo</option>
+    				<option value="value3">Tercero</option>
+    				<option value="value3">Cuarto</option>
+   					<option value="value3">Quinto</option>
+    				<option value="value3">Sexto</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Curso</label>
+				<select name='Curso'  type='Curso' required value="">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value2" >A</option>
+					<option value="value3">B</option>
+					<option value="value3">C</option>
+					<option value="value3">D</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Jornada</label>
+				<select name='Jornada'  type='Jornada' required value="">
+				<option selected disabled>Sel. una opción</option>
+				<option value="value2" >Unica</option>
+			</select>
+			</div>
+			<div class='field'>
+				<label>Fecha de publicacion</label>
+				<input type="date" name="Fecha" size="15"required value="">
+			</div>
+			<div class='field'>
+				<label>Fecha de entrega</label>
+				<input type="date" name="Fecha" size="15"required value="">
+			</div>
+			<div class='field'>
+				<label>Asignada a: </label>
+				<select name="todos">
+				<option value="value" selected>todos</option>
+				<option value="value2">estudiante 1</option>
+				<option value="value3" >estudiante 2</option>
+				<option value="value4">estudiante 3</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Periodo academico</label>
+				<select name="periodo">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value">periodo 1</option>
+					<option value="value2">periodo 2</option>
+					<option value="value3">periodo 3</option>
+					<option value="value3">periodo 4</option>
+				  </select>
+			</div>
+			<div class='field'>
+				<label>Publicar en el portal</label>
+				<select name="Publicar">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value" >Si</option>
+					<option value="value2">No</option>
+				  </select>
+			</div>
+			<div class='field'>
+				<label>Calificable</label>
+				<select name="Calificar">
+					<option selected disabled>Sel. una opción</option>
+					<option value="value">Si</option>
+					<option value="value2">No</option>
+				  </select>
+			</div>
+			<br>
+			<div class='textBox'>
+				<label>Descripcion de tarea </label>
+				<textarea></textarea>
+			</div>
+			
+			<div class='submit'>
+				<button>
+					<a class="ultimos" href="../error404/error404.html">Agregar</a>
+				</button>
+				<button>
+					<a class="ultimos" href="../error500/error500.html">Cancelar</a>
+				</button>
+				<button>
+					<a class="ultimos" href="../Profesor/Profesor.html">Volver</a>
+				</button>
+			</div>
+		</form>
+	</main>
+</body>
+
+</html>

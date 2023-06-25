@@ -1,0 +1,8 @@
+.Lista_Profes {
+    margin-bottom: 0.5; /* Espacio entre cada fila de la lista */
+  }
+
+  .Lista_Profes td {
+    padding: 5px; /* Espacio dentro de cada celda de la lista */
+    color: white;
+  }

@@ -1,0 +1,35 @@
+body{
+    background-color:#ffffff;
+}
+  
+img{
+    width: 60%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40xp;
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(70, 181, 241);
+    color: rgb(0, 0, 0);
+
+}
+
+@media screen and (max-width:630px) {
+    h1{        
+        font-size: px;        
+    }
+}

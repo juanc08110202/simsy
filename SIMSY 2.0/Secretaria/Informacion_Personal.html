@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Esta descripción es la que aparece en los buscadores debajo de la URL" />
+	<link href="./styles/practica7.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/formulario.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/resets.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap" rel="stylesheet">
+	<title>Registro</title>
+</head>
+
+<body>
+    <header>
+		<a href="" class='logo'>
+			<img src="../img/logo.jpg" />
+		</a>
+		<nav>
+			<a class="ultimos" href="../index.html">Inicio</a>
+			
+		</nav>
+		<div class="options" class="imagen-contenedor"> 
+			<img src="./img/Search.png" />
+			<img src="./img/User.png" onmouseover="mostrarOpciones('opciones1')" onmouseout="ocultarOpciones('opciones1')"/> 
+          
+            
+         </div>
+<script>
+
+ function mostrarOpciones(id) {
+  var opciones = document.getElementById(id);
+  opciones.style.display = "block";
+}
+</script>
+<script>
+function ocultarOpciones(id) {
+  var opciones = document.getElementById(id);
+  opciones.style.display = "none";
+}          
+</script>
+
+			
+		
+
+	</header>
+	<main>
+        <div id="opciones1" class="opciones-ocultas">
+           
+            <ul>
+                <li>Regresar al Perfil</li>
+                <li>Cerrar Sesión</li>
+              </ul>
+            </div>
+            
+		<div class="Usuario">
+			<img src="../Secretaria/img/Secretaria.PNG" alt="centered image" height="200" width="200">		
+
+        </div>
+
+		<div class="Usuario">
+                
+		<h1>Información Personal </h1>
+		<h2>Secretaria</h2>
+	    </div>
+
+
+<main>
+<form>
+    <div class='field'>
+        <label>Primer Nombre</label>
+        <select name='Primer Nombre'  type='Primer Nombre' required value="">
+            <option>Camila</option>
+        </select>
+    </div>
+    <div class='field'>
+        <label>Segundo Nombre</label>
+        <select name='Segungo Nombre' type='name' >
+        <option>Alejandra</option>
+    </select>
+    </div>
+    <div class='field'>
+        <label>Primer Apellido</label>
+        <select name='Primer Apellido' type='name' >
+        <option>Murcia</option>
+    </select>
+</div>
+    <div class='field'>
+        <label>Segundo Apellido</label>
+        <select name='Segundo Apellido' type='name' >
+            <option>Perez</option>
+        </select>
+    </div>
+    <div class='field'>
+        <label>Cargo</label>
+        <select name='Cargo'  type='cargo' required value="">
+            <option>Secretaria</option>
+            
+        </select>
+    </div>
+    <div class='field'>
+        <label>Email</label>
+        <select name='email'  type='email' required value="">
+        <option>Cami22@gmail.com</option>
+        </select>
+    </div>
+    <div class='field'>
+        <label>Direccion </label>
+        <select name='Direccion'  type='Direccion' required value="">
+            <option>Carr41 #21-41</option>
+            </select>
+    </div>
+    <div class='field'>
+        <label>Localidad</label>
+        <select name='Localidad' required>
+            <option>Tunal</option>
+            </select>
+    </div>
+    <div class='field'>
+        <label>Eps</label>
+        <select name='Eps' required>
+            <option>Colsubsidio</option>
+            </select>
+    </div>
+    <div class='field'>
+        <label>Pais</label>
+        <select name='Pais' required>
+            <option>Venezuela</option>
+        </select>
+    </div>
+    <div class='field'>
+        <label>Teléfono</label>
+        <select name='#' required>
+            <option>31587452</option>
+            
+        </select>
+    </div>
+    <div class='textBox'>
+        <label>Otros datos </label>
+        <textarea>Mantener la organización, llevar la agenda, atender al público, gestionar documentos, estas y otras más son las funciones esenciales de las Secretarias, quienes son una figura esencial en toda empresa.</textarea>
+    </div>
+    
+    
+    </div>
+</form>
+</main>
+
+</body>
+
+</html>
